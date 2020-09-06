@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'MyWebFont';  
+  src: url('../webfonts/000SuplexComicTB-Regular.woff');
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;  
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;  
+}
