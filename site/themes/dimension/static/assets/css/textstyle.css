@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'MyWebFont';  
-  src: url('../webfonts/000SuplexComicTB-Regular.woff');
+  src: url('../../fonts/000SuplexComicTB-Regular.woff');
 }
 
 /* Style the video: 100% width and height to cover the entire window */

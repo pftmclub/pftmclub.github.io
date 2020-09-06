@@ -4,21 +4,12 @@
     <title>{{ .Params.Title | default "Title" }}</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="{{ "assets/css/textstyle.css" | absURL }}"/>
     <link rel="stylesheet" href="{{ "assets/css/main.css" | absURL }}"/>
+	<link rel="stylesheet" href="{{ "assets/css/textstyle.css" | absURL }}"/>
     <noscript><link rel="stylesheet" href="{{ "assets/css/noscript.css" | absURL }}"/></noscript>
     <style>
         :root{--site-background : url("{{ .Params.background | default "images/bg.jpg" | absURL }}")};
     </style> 
-	<!-- SCM Music Player https://www.scmplayer.net -->
-<script type="text/javascript" src="https://www.scmplayer.net/script.js" 
-data-config="{'skin':'skins/simpleGreen/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':1,'placement':'top','showplaylist':false,'playlist'
-:[{'title':'Ymir%27s Time and Space','url':'https://pftmclub.github.io/site/music/season1_extra.ogg'},
-{'title':'Transporting Tunnel: Contaminated Area','url':'https://pftmclub.github.io/site/music/music023_stage.ogg'},
-{'title':'Underground Chapel','url':'https://pftmclub.github.io/site/music/music028_stage.ogg'},
-{'title':'Underground Garden','url':'https://pftmclub.github.io/site/music/music029_stage.ogg'},
-{'title':'Alter of Dedication (Berthe)','url':'https://pftmclub.github.io/site/music/music031_boss.ogg'}]}" ></script>
-<!-- SCM Music Player script end -->
     <!-- Include the script that enables Netlify Identity on this page. -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
