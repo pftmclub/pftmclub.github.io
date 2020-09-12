@@ -21,12 +21,13 @@
 										</div>
 										<div class="field half">
 											<label for="name">Image Captcha</label>											
-										<img id="captcha_image" src="http://www.emailmeform.com/builder/captcha/index/1c5eebdf5791a26492ab056a92fb467f" alt="captcha" onload="get_valid_captcha();" />
+										<img id="captcha_image" src="https://www.emailmeform.com/builder/captcha/index/5f7ffd8ee314f9a966a09253305286dc" alt="captcha" onload="if(typeof on_captcha_image_load=='function') on_captcha_image_load();"/>
 										</br></br>
-										<input type="text" id="captcha_code" name="captcha_code" maxlength="10" size="10" class="validate[required,funcCall[valid_captcha]]" />
+										<input type="text" id="captcha_code" name="captcha_code" maxlength="10" size="10" class="validate[required,funcCall[valid_captcha]]"
+						 />
 										</br>
-				[<a id="captcha_code_refresh" href=
-                "javascript:void(0);" onclick="document.getElementById('captcha_image').src = 'http://www.emailmeform.com/builder/captcha/index/'+Math.random();return false;">Refresh Image</a>]
+				[<a id="captcha_code_refresh" href="javascript:void(0);"
+						onclick="document.getElementById('captcha_image').src = 'https://www.emailmeform.com/builder/captcha/index/'+Math.random();return false;">Refresh Image</a>] 
                 [<a id="captcha_code_about" href="javascript:void(0);" onclick=
                 "window.open('http://www.emailmeform.com/captcha-instruction.html','_blank','width=400, height=500, left=' + (screen.width-450) + ', top=100');return false;">What's This?</a>]
 										</div>
