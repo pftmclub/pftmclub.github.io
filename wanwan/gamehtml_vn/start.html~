@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+<meta name="generator" content="Bluefish 2.2.12rc2" >
+<meta http-equiv="Content-Style-Type" content="text/css"><title>ゲーム起動</title></head><body bgcolor="#1a051d" text="#ffffff">
+<style type="text/css" media="screen, print">
+@font-face {
+  font-family: "UVN Saigon";
+  src: url(./UVNSaigon.ttf);
+}
+
+tbody { font-family: "UVN Saigon", serif }
+</style>
+<center>
+<table border="0" width="780">
+  <tbody>
+    <tr>
+      <td bgcolor="#5365ae"><font size="+1"><b> ・Hướng dẫn chạy game !</b></font></td>
+    </tr>
+    <tr>
+      <td><br>
+      <font size="-1">Tải game ở mục download, down về giải nén file zip ra, được file <font color="#1E90FF">"WonderfulWorld.exe"</font> rồi kích đúp file đó để chạy nhử tấm ảnh bên: <img src="../gameimg/game.gif" border="0" height="52" width="158"></font></td>
+    </tr>
+    <tr>
+      <td><br>
+      <br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td><font size="-1">Những câu hỏi thường gặp về game<br>
+      <br>
+      </font><font color="#ff0000" size="-1"><font color="#ff0000"><b>Q: Khi tôi mở file thực thi, game không hề hoạt động ! </b></font></font><font size="-1"><br>
+      A: Nhiều khả năng là game của bạn nằm trong thư mục có dấu chấm (.) , để khắc phụ hãy đổi tên thư mục ngay sau khi tải về ! <br>      
+      <br>
+      </font><font color="#ff0000" size="-1"><font color="#ff0000"><b>Q: Tôi muốn gỡ cài đặt game này, bằng cách nào?</b></font></font><font size="-1"><br>
+      A: Bạn chỉ việc xoá thư mục game là xong<br>
+      <br>
+      </font><font color="#ff0000" size="-1"><font color="#ff0000"><b>Q: Bộ đếm thời gian của game đã chạy trước khi bắt đầu trận đấu.</b></font></font><font size="-1"><br>
+      A: Game được thiết kế để chơi theo kiểu không giới hạn thời gian, bật bộ đếm sẽ gây ra lỗi.<br>
+      Điều chỉnh thời gian về 0 sẽ tốt hơn.<br>
+      </font><font color="#ff0000" size="-1"><font color="#ff0000"><b><br>
+      Q: Khi tôi thay đổi tốc độ của game, mọi thứ trở nên rất kì lạ .</b></font></font><font size="-1"><br>
+      A: Game này được lập trình bởi phần mềm 2D Fighter Maker 2nd, thay đổi tốc độ của game là 1 tính năng chưa hề hoàn thiện của công cụ lập trình này. <br>
+      Đừng cố làm gì thì tốt hơn.<br>
+      <br>
+      </font><font color="#ff0000" size="-1"><font color="#ff0000"><b>Q: Tôi tìm thấy một số lỗi và combo vô hạn.</b></font></font><font size="-1"><br>
+      A: Nếu bạn muốn báo cáo vấn đề, đừng ngần ngại mà hãy liên hệ với Ainefill qua E-mail, diễn đàn, blog, hay trang chủ.<br>
+      <br>
+      </font><font color="#ff0000" size="-1"><font color="#ff0000"><b>Q: Game này không hề chạy trên Windows Vista/7/10</b></font></font><font size="-1"><br>
+      A: Nếu bạn sử dụng bộ gõ của Microsoft Office, hãy thay thế nó bằng bộ gõ mặc định của Windows để khắc phục. <br>
+      <br>
+</font><font color="#ff0000" size="-1"><font color="#ff0000"><b>Q. Phím D-Pad trên tay cầm không hề phản ứng trong game này.</b></font></font><font size="-1"><br>
+A: Game này không chính thức hỗ trợ phím D-Pad trên các loại tay cầm Xbox360 hay PS3/4. <br>
+Nếu bạn sử dụng tay PS2/ PS1. bạn có thể sử dụng nút Analog nằm ở giữa, khi đèn LED tắt là bạn có thể sử dụng phím D-PAD<br>
+Nếu không có cách nào chuyển đổi đc phím D-Pad sang Analog, Bạn có thể sử dụng các phần mềm gán nút Keyboard cho tay cầm như : Joytokey, Antimicro hay Xpadder<br>
+      <br>
+      </font>
+       </font><font color="#ff0000" size="-1"><font color="#ff0000"><b>Q: Game này có hỗ trợ online chứ? Nếu có thì bằng cách nào?</b></font></font><font size="-1"><br>
+      A: Game này ko hề có tính năng chơi trực tuyến cho đến năm 2010, một phần mềm tên Lilith Port đã khiến điều đó thành sự thật.  <br>
+Hướng dẫn chi tiết sẽ được cập nhật ở một trang khác<br>
+      <br></font></td>
+    </tr>
+    <tr>
+      <td><br>
+</td>
+    </tr>
+    <tr>
+      <td><br>
+</td>
+    </tr>
+  </tbody>
+</table>
+</center>
+</body></html>

@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=SHIFT_JIS">
+<meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.0.0 for Windows">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<style>
+/* unvisited link */
+a:link {
+  color: orange;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+</style>
+<title>取扱説明書</title></head><body bgcolor="#1a051d">
+<p align="center"><img src="../gameimg/top.png" border="0" height="640" width="815"></p>
+<p align="center"><font color="#ffffff"><b><a target="_blank" rel="noopener noreferrer" href="../wanindex_vn.html">VIETNAMESE VERSION</a></b></font></p>
+<p align="center"><font color="#ffffff"><b>動作環境</b></font></p>
+<center>
+<table>
+<tbody>
+<tr>
+      <td align="center"><font color="#ffffff"><b><font size="-1">OS</font></b></font></td>
+      <td align="center"><font color="#ffffff" size="-1">Windows95/98/Me/2000日本語版</font></td>
+    </tr>
+<tr>
+      <td align="center"><font color="#ffffff"><b><font size="-1">ＤｉｒｅｃｔＸ</font></b></font></td>
+      <td align="center"><font color="#ffffff" size="-1">要DirectX７以上</font></td>
+    </tr>
+<tr>
+      <td align="center"><font color="#ffffff"><b><font size="-1">CPU</font></b></font></td>
+      <td align="center"><font color="#ffffff" size="-1">PentiumⅢ400メガヘルツ以上</font></td>
+    </tr>
+<tr>
+      <td align="center"><font color="#ffffff" size="-1"><b>メモリー</b></font></td>
+      <td align="center"><font color="#ffffff" size="-1">64メガバイト以上</font></td>
+    </tr>
+<tr>
+      <td align="center"><font color="#ffffff" size="-1"><b>ハードディスク容量</b></font></td>
+      <td align="center"><font color="#ffffff" size="-1">最低100メガバイトの空き容量</font></td>
+    </tr>
+<tr>
+      <td align="center"><font color="#ffffff" size="-1"><b>グラフィックカード</b></font></td>
+      <td align="center"><font color="#ffffff" size="-1">４メガバイト以上のビデオメモリーを搭載し、解像度800×600以上でハイカラー表示が可能なもの</font></td>
+    </tr>
+<tr>
+      <td align="center"><font color="#ffffff" size="-1"><b>サウンドカード</b></font></td>
+      <td align="center"><font color="#ffffff" size="-1">サウンドブラスター互換音源、かつＰＣＭ音源を搭載したもの</font></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</center>
+<hr noshade="noshade" size="1" width="500">
+<p align="center"><font color="#ffffff" size="-1">このゲームは２D格闘ツクール2ndで作成されています。<br>
+ゲーム内で使用されている素材は全て無断転載禁止です。<br>
+</font></p>
+
+</body></html>

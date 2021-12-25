@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.0.0 for Windows">
+<meta http-equiv="Content-Style-Type" content="text/css"><title>Sơ lược cấu hình</title></head><body bgcolor="#1a051d">
+<style type="text/css" media="screen, print">
+@font-face {
+  font-family: "UVN Saigon";
+  src: url(./UVNSaigon.ttf);
+}
+
+tbody { font-family: "UVN Saigon", serif }
+/* unvisited link */
+a:link {
+  color: orange;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+</style>
+<p align="center"><img src="../gameimg/top.png" border="0" height="640" width="815"></p>
+<p align="center"><font face="UVN Saigon" color="#ffffff"><b>Cấu hình yêu cầu</b></font></p>
+<center>
+<table>
+<tbody>
+<tr>
+      <td align="center"><font color="#ffffff"><b><font size="3">OS</font></b></font></td>
+      <td align="center"><font color="#ffffff" size="3">Windows95/98/Me/2000 với môi trường tiếng Nhật</font></td>
+    </tr>
+<tr>
+      <td align="center"><font color="#ffffff"><b><font size="3">DirectX</font></b></font></td>
+      <td align="center"><font color="#ffffff" size="3">DirectX7 trở lên </font></td>
+    </tr>
+<tr>
+      <td align="center"><font color="#ffffff"><b><font size="3">CPU</font></b></font></td>
+      <td align="center"><font color="#ffffff" size="3">Chip Intel Pentium III với tần số xử lý 400 MHz trở lên</font></td>
+    </tr>
+<tr>
+      <td align="center"><font color="#ffffff" size="3"><b>Bộ nhớ trong (RAM)</b></font></td>
+      <td align="center"><font color="#ffffff" size="3">64MB trở len</font></td>
+    </tr>
+<tr>
+      <td align="center"><font color="#ffffff" size="3"><b>Bộ nhớ ngoài (HDD)</b></font></td>
+      <td align="center"><font color="#ffffff" size="3">Cần trống ít nhất 1.3GB</font></td>
+    </tr>
+<tr>
+      <td align="center"><font color="#ffffff" size="3"><b>Card đồ hoạ (VGA)</b></font></td>
+      <td align="center"><font color="#ffffff" size="3">Yeu cầu card có 4MB RAM ảo, hỗ trợ màu sắc cao với độ phân giải 800x600 trở len</font></td>
+    </tr>
+<tr>
+      <td align="center"><font color="#ffffff" size="3"><b>Card âm thanh</b></font></td>
+      <td align="center"><font color="#ffffff" size="3">Yêu cầu card âm thanh có hỗ trợ phát nhạc PCM, 2 loa, thuộc thế hệ Sound Blaster trở lên.</font></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</center>
+<hr noshade="noshade" size="1" width="500">
+<p align="center"><font face="UVN Saigon" color="#ffffff" size="3">Game được lập trình bởi phần mềm 2D Fighter Maker 2nd.<br>
+Toàn bộ tài nguyên được sử dụng trong game không được sao chép ra ngoài nếu không có sự đồng ý của tác giả. <br>
+</font></p>
+
+</body></html>
