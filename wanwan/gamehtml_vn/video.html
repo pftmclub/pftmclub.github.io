@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+  <script src="../gamehtml_vn/video-js/video.js" type="text/javascript" charset="utf-8"></script>
+  <!-- JQuery not required, but used for dom ready function -->
+  <script src="../gamehtml_vn/javascripts/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+
+ 
+  <link rel="stylesheet" href="../gamehtml_vn/video-js/video-js.css" type="text/css" media="all" charset="utf-8" />
+  
+  <link rel="stylesheet" href="../gamehtml_vn/video-js/skins/tube.css" type="text/css" media="screen" title="Video JS" charset="utf-8"> 
+
+ 
+
+  <script type="text/javascript" charset="utf-8">
+    // Using JQuery's DOM Ready function
+    // You can also use window.onload, but it loads slower
+    $(function(){
+      VideoJS.setup();
+    })
+
+    // If not using a JS library
+    // window.onload = function(){
+    //   VideoJS.setup();
+    // }
+  </script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+<meta name="generator" content="Bluefish 2.2.12rc2" >
+<META http-equiv="Content-Style-Type" content="text/css">
+<style type="text/css" media="screen, print">
+@font-face {
+  font-family: "UVN Saigon";
+  src: url(./UVNSaigon.woff);
+}
+
+tbody { font-family: "UVN Saigon", serif }
+</style>
+
+	
+	   
+<TITLE>Video Huong dan</TITLE>
+</HEAD>
+<BODY text="#ffffff" bgcolor="#1a051d">
+<CENTER>
+<TABLE border="0" width="800" cellspacing="0">
+  <TBODY>
+    <TR>
+      <TD colspan="3" bgcolor="#5365ae"><B><FONT size="+1">
+　・Hướng dẫn cơ chế điều khiển bằng Video</FONT></B></TD>
+    </TR>
+    <TR>
+      <TD width="0" colspan="3" align="center"><BR>
+    <div class="video-js-box tube-css">
+   <!-- Using the Video for Everybody Embed Code http://camendesign.com/code/video_for_everybody -->
+		 <video class="video-js" width="512" height="384" poster="../gameimg_vn/videos/thumbnail.png" controls preload>           
+        <source src="../gameimg_vn/videos/basic.mp4" type='video/mp4' />        
+        <!-- Flash Fallback. Use any flash video player here. Make sure to keep the vjs-flash-fallback class. -->
+        <object id="flash_fallback_1" class="vjs-flash-fallback" width="512" height="384" type="application/x-shockwave-flash"
+          data="../gamehtml_vn/script/flowplayer-3.2.1.swf">
+          <param name="movie" value="../gamehtml_vn/script/flowplayer-3.2.1.swf" />
+          <param name="wmode" value="opaque" />
+          <param name="allowfullscreen" value="true" />
+          <param name="flashvars" value='config={"playlist":["../gameimg_vn/videos/thumbnail.png", {"url": "../gameimg_vn/videos/basic.mp4","autoPlay":false,"autoBuffering":true}]}' />
+          <!-- Image Fallback. Typically the same as the poster image. -->
+          <img src="../gameimg_vn/videos/thumbnail.png" width="512" height="384" alt="Poster Image"
+            title="No video playback capabilities." />
+        </object>
+      </video> 
+      </div> 
+      <BR>
+      <BR>
+      </TD>
+    </TR>    
+    <TR>
+      <TD width="40"></TD>
+      <TD width="120"></TD>
+      <TD width="300"></TD>
+    </TR>
+    <TR>
+      <TD width="40"></TD>
+      <TD width="120"></TD>
+      <TD width="300"></TD>
+    </TR>
+    <TR>
+      <TD width="40"></TD>
+      <TD width="120"></TD>
+      <TD width="300"></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
