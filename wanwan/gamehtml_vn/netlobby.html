@@ -1,67 +1,295 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
-<META http-equiv="Content-Type" content="text/html; charset=SHIFT_JIS">
-<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.0.0 for Windows">
-<META http-equiv="Content-Style-Type" content="text/css"><title>�l�b�g�ΐ�I�v�V����</title></head><body bgcolor="#1a051d" text="#ffffff">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+<meta name="generator" content="Bluefish 2.2.12rc2" >
+<style type="text/css" media="screen, print">
+@font-face {
+  font-family: "UVN Saigon";
+  src: url(./UVNSaigon.woff);
+}
+tbody { font-family: "UVN Saigon", serif }
+a:link {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.highlight {
+    font-size: 18px;
+    line-height: 36px;
+}
+.highlight span {
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.highlight span span {
+    margin: 0 -3px;
+}
+.highlight .start {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+}
+.highlight .end {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: none;
+}
+.highlight .purple {
+    background-color: rgba(0, 0, 255, 0.15);
+    border-color: rgba(0, 0, 255, 0.5);
+}
+.highlight .green {
+    background-color: rgba(0, 255, 0, 0.15);
+    border-color: rgba(0, 255, 0, 0.5);
+}
+.highlight .orange {
+    background-color: rgba(255, 150, 0, 0.15);
+    border-color: rgba(255, 150, 0, 0.5);
+}
+.highlight .red {
+    background-color: rgba(255, 0, 0, 0.15);
+    border-color: rgba(255, 0, 0, 0.5);
+}   
+.highlight .yellow {
+    background-color: rgba(255, 255, 0, 0.15);
+    border-color: rgba(255, 255, 0, 0.5);
+}
+.highlight .blue {
+    background-color: rgba(0, 150, 255, 0.15);
+    border-color: rgba(0, 150, 255, 0.5);
+}
+</style>
+<META http-equiv="Content-Style-Type" content="text/css"><title>Hướng dẫn tạo server</title></head><body bgcolor="#1a051d" text="#ffffff">
 <center>
 <table border="0" width="780">
   <tbody>
     <tr>
-      <td colspan="4" bgcolor="#5365ae"><b><font size="+1">�@�E�l�b�g�ΐ�</font></b></td>
+      <td colspan="4" bgcolor="#5365ae"><b><font size="+1">　・Hướng dẫn tạo Server cho game</font></b></td>
     </tr>
-    <TR>
-      <TD colspan="4" align="center"><IMG src="../gameimg/netlobby.gif" width="626" height="480" border="0"></TD>
-    </TR>
-    <TR>
-      <TD colspan="4" align="center">
+  <TR>
+      <TD colspan="4"><FONT size="-1">
+<br>
+      1. Đầu tên là tải phần mềm 「LilithPort」 về . Bạn có thể tải về tại <A href="http://ux.getuploader.com/ainefill/download/398/LilithPort_v108.zip" target="_blank">đây</a> hoặc <a href="../gamehtml_vn/online/LilithPort_v108.zip">đây</a><br>
+      	   <br>Chú ý là máy bạn cần .NET Framework 3.5 nếu sử dụng Windows 10 trở lên.</br>
+      <br>2. Sau khi tải về, giải nén file ZIP ra.<BR>
+      <BR>
+      3. Sau khi giải nén, chạy file「LilithPort.exe」 .<BR>
+      <BR>
+      <img src="../gameimg_vn/online/lilithport.png" width="100" height="121" alt=""><BR>
+      <BR>
+      4. Sau khi cửa sổ hiện, Chương trình sẽ yêu cầu cài đặt cho server. <b>Xem chi tiết các mô tả bên dưới để cài đặt cho server :</b><BR>
+      <BR>
+     <img src="../gameimg_vn/online/007.png" width="409" height="288" alt="">
+		<BR><BR>
+		<TABLE border="1">
+        <TBODY>
+          <TR>
+            <TD bgcolor="#6666ff"><FONT size="-1"><B>&nbsp;  ニックネーム&nbsp;  </B></FONT></TD>
+            <TD><FONT size="-1">Nickname của người chơi, đặt theo sở thích tuỳ ý.</FONT></TD>
+          </TR>
+          <TR>
+            <TD bgcolor="#6666ff"><FONT size="-1"><B>&nbsp;  コメント&nbsp;  </B></FONT></TD>
+            <TD><FONT size="-1">Trạng thái của người chơi, giống như Status trong discord</FONT></TD>
+          </TR>
+          <TR>
+            <TD bgcolor="#6666ff"><FONT size="-1"><B>&nbsp;  接続先アドレス &nbsp;  </B></FONT></TD>
+            <TD><FONT size="-1">Địa chỉ kết nối của Server, được mã hoá thành mã Base64 thay vì điền địa chỉ IP .</FONT></TD>
+          </TR>
+          <TR>
+            <TD bgcolor="#6666ff"><FONT size="-1"><B>&nbsp;  接続&nbsp;  </B></FONT></TD>
+            <TD><FONT size="-1">Nút bấm kết nối tới server, ấn vào sau khi cài đặt xong xuôi. </FONT></TD>
+          </TR>
+        </TBODY>
+      </TABLE><br><br>
+		5. Một cửa sổ thông báo sẽ hiện ra, cứ ấn OK!
+		<BR><BR>
+		<img src="../gameimg_vn/online/002.jpg" width="241" height="128" alt="">
+		<BR><BR>
+		6. Tìm file 「WonderfulWorld_ver_XXXX.exe」 rồi chọn để liên kết game với phần mềm.
+		<BR><BR>
+		<img src="../gameimg_vn/online/003.jpg" width="379" height="424" alt="">
+		<BR><BR>
+		7. Điền tên Profile cho cài đặt này, lưu Profile, rồi tích vào cài đặt tự động sắp xếp file Replay.
+		<BR><BR>
+		<img src="../gameimg_vn/online/004.png" width="379" height="424" alt="">
+		<BR><BR>
+		8. Chuyển sang thẻ ゲーム (Game) rồi chỉnh sửa theo ảnh sau: 
+		<BR><BR>
+		<img src="../gameimg_vn/online/005.png" width="379" height="424" alt="">
+      
+
+		<BR><BR>
       <TABLE border="1">
         <TBODY>
           <TR>
-            <TD bgcolor="#5365ae"><B>�@</B></TD>
-            <TD>�����o�[���X�g</TD>
+            <TD bgcolor="#5365ae"><FONT size="-1"> <B>&nbsp; 最大ステージ数 &nbsp;</B> </FONT></TD>
+            <TD><FONT size="-1">
+            Số lượng sàn đấu tối đa có thể chơi<BR>
+            Các game đối kháng cao cấp thường để nhiều sàn đấu trong 1 file.<BR>
+            Khuyến khích để mặc định là 1 trong trường hợp này. </FONT></TD>
           </TR>
           <TR>
-            <TD bgcolor="#5365ae"><B>�A</B></TD>
-            <TD>���O�E�B���h�E</TD>
+            <TD bgcolor="#5365ae"><FONT size="-1"><B>&nbsp; ランダムステージ &nbsp; </B></FONT></TD>
+            <TD><FONT size="-1">Tuỳ chọn sàn đấu ngẫu nhiên<BR>
+             Mặc định nên để là 0<BR>
+            Tuỳ chọn này vô dụng đối với Wonderful World</FONT></TD>
           </TR>
           <TR>
-            <TD bgcolor="#5365ae"><B>�B</B></TD>
-            <TD>���͗�</TD>
+            <TD bgcolor="#5365ae"><FONT size="-1"><B>&nbsp; ラウンド数 &nbsp; </B></FONT></TD>
+            <TD><FONT size="-1">Số hiệp có thể chơi trong 1 trận.<BR>
+            Mặc định thường là 2 hiệp<BR>
+            </FONT></TD>
+          </TR>
+          <TR>
+            <TD bgcolor="#5365ae"><FONT size="-1"><B>&nbsp;  ゲームタイマー &nbsp; </B></FONT></TD>
+            <TD><FONT size="-1">Thời gian của trận đấu. <BR>
+            Khi chơi online phải để là 0<BR>
+            Nếu để 60 giây như các game khác sẽ dẫn đến lỗi game, không bao giờ thay đổi mục này.</FONT></TD>
+          </TR>
+          <TR>
+            <TD bgcolor="#5365ae"><FONT size="-1"><B>&nbsp;  ラウンド間でHPを持ち越す &nbsp; </B></FONT></TD>
+            <TD><FONT size="-1">Giữ lại HP của nhân vật sang hiệp sau<BR><BR>
+            <b>KHÔNG BAO GIỜ TÍCH VÀO VỚI BẤT KÌ LÍ DO NÀO</b></FONT></TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR><BR> 
+      9. Sau khi cài đặt xong, bạn gõ 「/game」 trên thanh chat rồi nhấn enter để chạy game : 
+      <BR><BR> 
+      <img src="../gameimg_vn/online/002.png" width="530" height="411" alt="">
+      <BR><BR> 
+	   10. Khi bạn nhìn thấy game chạy như hình dưới là cài đặt thành công :
+ 		<BR><BR>
+ 		<img src="../gameimg_vn/online/003.png" width="639" height="480" alt="">
+		<BR><BR>      
+      <B><FONT size="-1"><BR>
+      <b>・「Hướng dẫn kết nối tới server」</b><BR>
+      <BR>
+      1. Bạn gõ /restart trên thanh chat hoặc tắt đi rồi mở lại file 「LilithPort.exe」.
+<BR><BR>
+      <img src="../gameimg_vn/online/006.png" width="409" height="288" alt=""><BR>
+      <BR>
+      </FONT></B>
+      <TABLE border="1">
+        <TBODY>
+          <TR>
+            <TD bgcolor="#9a4143"><FONT size="-1"><B>&nbsp;  ニックネーム&nbsp;  </B></FONT></TD>
+            <TD><FONT size="-1">Nickname của người chơi, đặt theo sở thích tuỳ ý.</FONT></TD>
+          </TR>
+          <TR>
+            <TD bgcolor="#9a4143"><FONT size="-1"><B>&nbsp;  コメント&nbsp;  </B></FONT></TD>
+            <TD><FONT size="-1">Trạng thái của người chơi, giống như Status trong discord</FONT></TD>
+          </TR>
+          <TR>
+            <TD bgcolor="#9a4143"><FONT size="-1"><B>&nbsp;  接続先アドレス &nbsp;  </B></FONT></TD>
+            <TD><FONT size="-1">Địa chỉ kết nối của Server, được mã hoá thành mã Base64 thay vì điền địa chỉ IP .</FONT></TD>
+          </TR>
+          <TR>
+            <TD bgcolor="#9a4143"><FONT size="-1"><B>&nbsp;  接続&nbsp;  </B></FONT></TD>
+            <TD><FONT size="-1">Nút bấm kết nối tới server, ấn vào sau khi cài đặt xong xuôi. </FONT></TD>
           </TR>
         </TBODY>
       </TABLE>
       <FONT size="-1"><BR>
-      </FONT></TD>
-    </TR>
-    <TR>
-      <TD colspan="4"><B>�E�I�v�V�����̐ݒ�</B><BR>
+      <B>2. Sau khi kết nối thành công, một cửa sổ như hình dưới sẽ hiện ra</B> </FONT><BR>
       <BR>
-      <IMG src="../gameimg/netplayoption.gif" width="391" height="335" border="0"><BR>
+      <img src="../gameimg_vn/online/008.png" width="530" height="411" alt=""><BR>
       <BR>
       <TABLE border="1">
         <TBODY>
           <TR>
-            <TD bgcolor="#9a4143"><FONT size="-1"><B>���s�t�@�C���̃p�X</B></FONT></TD>
-            <TD><FONT size="-1">�Q�[���{�̂��ۑ�����Ă���t�H���_����AWonderfulWorld.exe��I�����܂��B</FONT></TD>
+            <TD bgcolor="#5365ae"><FONT size="4"><B>&nbsp;  ① &nbsp; </B></FONT></TD>
+            <TD><FONT size="-1"><div class="highlight"><font size="-1">Đây là danh sách người chơi.<BR></font>
+           <font size="-1"> Không có đánh dấu tức nền trắng nghĩa là có thể thách đấu<br></font>
+             <font size="-1"><span class="yellow">Tên nick có nền vàng</span> nghĩa là người chơi đang bận và không thể thách đấu. Để kích hoạt, gõ /rest trên thanh chat.<br></font>
+             <font size="-1"><span class="red">Tên nick có nền đỏ</span> nghĩa là người chơi đang chơi, bạn không thể thách đấu họ.<br></font>
+             <font size="-1"><span class="green">Tên nick có nền xanh lá</span> nghĩa là người chơi đang theo dõi trận đấu và bạn không thể thách đấu họ.<br></font>
+             <font size="-1"><span class="blue">Tên nick có nền xanh</span> nghĩa là người chơi đang tìm người thách đấu. Bạn có thể thách đấu họ.<br></font>
+         </div>
+            <font size="-1" color="#00ff00">Tên nick có màu xanh lá</font>  tức là chủ server (SERVER)<br>
+            <font size="-1" color="#6666ff">Tên nick có màu xanh</font> tức là người chơi đã mở port (HOST)<br>
+            Tên nick có màu đen như bình thường tức là người chơi chỉ kết nối với chủ server và Host (CLIENT) </font></TD>
           </TR>
           <TR>
-            <TD bgcolor="#9a4143"><FONT size="-1"><B>���v���C�ۑ��t�H���_</B></FONT></TD>
-            <TD><FONT size="-1">���v���C��ۑ������ꍇ�A�����I�Ɏw��t�H���_�ɕۑ�����܂��B</FONT></TD>
+            <TD bgcolor="#5365ae"><B><FONT size="4">&nbsp; ② &nbsp; </FONT></B></TD>
+            <TD><FONT size="-1">Đây là bản ghi lịch sử chat<BR>
+            Toàn bộ dòng chat sẽ hiện ở đây.</FONT></TD>
           </TR>
-          <TR>
-            <TD bgcolor="#9a4143"><FONT size="-1"><B>����ݒ�</B></FONT></TD>
-            <TD><FONT size="-1">�ڑ�����A�R�����g��ҏW���܂��B</FONT></TD>
+           <TR>
+            <TD bgcolor="#5365ae"><B><FONT size="4">&nbsp; ③ &nbsp; </FONT></B></TD>
+            <TD><FONT size="-1">Đây là thanh chat.<BR>
+            Bạn có thể gõ những gì mình muốn chat tại đây.</FONT></TD>
+          </TR>
+           <TR>
+            <TD bgcolor="#5365ae"><B><FONT size="4">&nbsp; ④ &nbsp; </FONT></B></TD>
+            <TD><FONT size="-1">Đây là Profile của trò chơi.<BR>
+            Bạn có thể chuyển đổi sang profile khác dành cho game khác mà bạn muốn chơi. Cái này không cần để ý lắm.</FONT></TD>
           </TR>
         </TBODY>
       </TABLE>
       <BR>
+      <FONT size="-1"><B>3. Hướng dẫn cách thách đấu/ theo dõi/ xem ping v.v...</B></FONT><BR>
       <BR>
+     <img src="../gameimg_vn/online/009.png" width="530" height="411" alt=""><BR>
+      <BR>     
+      <TABLE border="1">
+        <TBODY>
+          <TR>
+            <TD bgcolor="#5365ae"><FONT size="-1"><B>&nbsp;  ① 対戦する &nbsp; </B></FONT></TD>
+            <TD><FONT size="-1">Thách đấu người chơi.
+</FONT></div> </TD>
+          </TR>
+          <TR>
+            <TD bgcolor="#5365ae"><B><FONT size="-1">&nbsp; ② 観戦する &nbsp; </FONT></B></TD>
+            <TD><FONT size="-1">Theo dõi trận đấu của người chơi</FONT></TD>
+          </TR>
+           <TR>
+            <TD bgcolor="#5365ae"><B><FONT size="-1">&nbsp; ③ 対戦募集中する &nbsp; </FONT></B></TD>
+            <TD><FONT size="-1">Đặt mình vào trạng thái "Cần tìm người thách đấu" .<BR>
+            Ấn vào một lần nữa để tắt đi.</FONT></TD>
+          </TR>
+           <TR>
+            <TD bgcolor="#5365ae"><B><FONT size="-1">&nbsp; ④ PING &nbsp; </FONT></B></TD>
+            <TD><FONT size="-1">Theo số PING của người chơi .<BR>
+            Kiểm tra khoảng cách mạng giữa hai người để xem có LAG không. Số ping sẽ hiện ở bảng chat sau khi ấn vào.</FONT></TD>                       
+          </TR>
+          <TR>
+          <TD bgcolor="#5365ae"><B><FONT size="-1">&nbsp; ⑤ 名前をコピー &nbsp; </FONT></B></TD>
+           <TD><FONT size="-1">Chép tên của người chơi vào khay nhớ.<BR>
+            Rất hữu dụng khi bạn muốn tag tên của người chơi bạn cần nói chuyện cùng. </FONT></TD>
+            </tr>
+        </TBODY>
+      </TABLE>
+    
+       <FONT size="-1"><BR>
+      <B>4. Một số thông tin phụ</B> <BR><br>
+      Bạn nên nhớ khi chơi online thì tay cầm của bạn luôn nằm ở vị trí người chơi 1 thay vì người chơi 2 cho dù bạn ở bên máy nào đi chăng nữa. Luôn luôn chỉnh nút cho người chơi 1 .
+</FONT>
+  <FONT size="-1"><BR>
+      </FONT>
       </TD>
     </TR>
-    <TR>
-      <TD colspan="4"><IMG src="../gameimg/netgameoption.gif" width="391" height="335" border="0"></TD>
-    </TR>
-  </tbody>
+  </tbody>  
 </table>
 </center>
 </body></html>

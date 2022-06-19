@@ -210,7 +210,7 @@ a:active {
              <font size="-1"><span class="blue">Tên nick có nền xanh</span> nghĩa là người chơi đang tìm người thách đấu. Bạn có thể thách đấu họ.<br></font>
          </div>
             <font size="-1" color="#00ff00">Tên nick có màu xanh lá</font>  tức là chủ server (SERVER)<br>
-            <font size="-1" color="#6666ff">Tên nick có màu xanh</font> tức là người chơi đã mở port (HOST)<br>
+            <font size="-1" color="blue">Tên nick có màu xanh</font> tức là người chơi đã mở port (HOST)<br>
             Tên nick có màu đen như bình thường tức là người chơi chỉ kết nối với chủ server và Host (CLIENT) </font></TD>
           </TR>
           <TR>

@@ -2,7 +2,6 @@
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 <meta name="generator" content="Bluefish 2.2.12rc2" >
-<META http-equiv="Content-Style-Type" content="text/css">
 <style type="text/css" media="screen, print">
 @font-face {
   font-family: "UVN Saigon";
@@ -80,16 +79,14 @@ a:active {
     border-color: rgba(0, 150, 255, 0.5);
 }
 </style>
-<title>Hướng dẫn chơi online</title>
-</head>
-<body bgcolor="#1a051d" text="#ffffff">
+<META http-equiv="Content-Style-Type" content="text/css"><title>Hướng dẫn tạo server</title></head><body bgcolor="#1a051d" text="#ffffff">
 <center>
 <table border="0" width="780">
   <tbody>
     <tr>
-      <td colspan="4" bgcolor="#5365ae"><b><font size="+1">　・Hướng dẫn chơi Online chi tiết</font></b></td>
+      <td colspan="4" bgcolor="#5365ae"><b><font size="+1">　・Hướng dẫn tạo Server cho game</font></b></td>
     </tr>
-    <TR>
+  <TR>
       <TD colspan="4"><FONT size="-1">
 <br>
       1. Đầu tên là tải phần mềm 「LilithPort」 về . Bạn có thể tải về tại <A href="http://ux.getuploader.com/ainefill/download/398/LilithPort_v108.zip" target="_blank">đây</a> hoặc <a href="../gamehtml_vn/online/LilithPort_v108.zip">đây</a><br>
@@ -102,8 +99,28 @@ a:active {
       <BR>
       4. Sau khi cửa sổ hiện, Chương trình sẽ yêu cầu cài đặt cho server. <b>Ấn vào nút đóng như hình</b><BR>
       <BR>
-      <img src="../gameimg_vn/online/001.jpg" width="409" height="288" alt="">
+     <img src="../gameimg_vn/online/007.png" width="409" height="288" alt="">
 		<BR><BR>
+		<TABLE border="1">
+        <TBODY>
+          <TR>
+            <TD bgcolor="#6666ff"><FONT size="-1"><B>&nbsp;  ニックネーム&nbsp;  </B></FONT></TD>
+            <TD><FONT size="-1">Nickname của người chơi, đặt theo sở thích tuỳ ý.</FONT></TD>
+          </TR>
+          <TR>
+            <TD bgcolor="#6666ff"><FONT size="-1"><B>&nbsp;  コメント&nbsp;  </B></FONT></TD>
+            <TD><FONT size="-1">Trạng thái của người chơi, giống như Status trong discord</FONT></TD>
+          </TR>
+          <TR>
+            <TD bgcolor="#6666ff"><FONT size="-1"><B>&nbsp;  接続先アドレス &nbsp;  </B></FONT></TD>
+            <TD><FONT size="-1">Địa chỉ kết nối của Server, được mã hoá thành mã Base64 thay vì điền địa chỉ IP .</FONT></TD>
+          </TR>
+          <TR>
+            <TD bgcolor="#6666ff"><FONT size="-1"><B>&nbsp;  接続&nbsp;  </B></FONT></TD>
+            <TD><FONT size="-1">Nút bấm kết nối tới server, ấn vào sau khi cài đặt xong xuôi. </FONT></TD>
+          </TR>
+        </TBODY>
+      </TABLE><br><br>
 		5. Một cửa sổ thông báo sẽ hiện ra, cứ ấn OK!
 		<BR><BR>
 		<img src="../gameimg_vn/online/002.jpg" width="241" height="128" alt="">

@@ -18,7 +18,7 @@ tbody { font-family: "UVN Saigon", serif }
 <TABLE border="0" width="800">
   <TBODY>
     <TR>
-      <TD colspan="3"><FONT size="-1"><A href="net.html" target="chara"><IMG src="../gameimg_vn/parts/button_b13.jpg" height="20" border="0"></A></FONT>　<A href="netlobby.html" target="chara"><IMG src="../gameimg_vn/parts/button_b12.jpg" height="20" border="0"></a>　<IMG src="../gameimg_vn/parts/button_b14.jpg" height="20" border="0"></TD>
+      <TD colspan="3"><FONT size="-1"><A href="net.html" target="chara"><IMG src="../gameimg_vn/parts/button_b13.jpg" height="20" border="0"></A></FONT>　<A href="netlobby.html" target="chara"><IMG src="../gameimg_vn/parts/button_b12.jpg" height="20" border="0">　<IMG src="../gameimg_vn/parts/button_b14.jpg" height="20" border="0"></TD>
     </TR>
     <TR>
       <TD colspan="3">
